@@ -99,9 +99,9 @@
         <meta charset="utf-8">
         <title>БАР</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="feedback/js/feedback.js"></script>
-        <script src="feedback/js/jquery.arcticmodal.js"></script>
-        <script src="feedback/js/scripts.js"></script>
+        <script src="js/feedback.js"></script>
+        <script src="js/jquery.arcticmodal.js"></script>
+        <script src="js/scripts.js"></script>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/jquery.arcticmodal.css">
         <link rel="stylesheet" type="text/css" href="css/jquery.jgrowl.css">
