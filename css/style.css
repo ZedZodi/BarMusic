@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.column {
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+}
+
+.box-modal {
+
+    width: 155px;
+
+}
+
+
