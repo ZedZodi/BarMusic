@@ -13,8 +13,8 @@
     }
 
     $db = new DataBase($username, $password, $host, $dbname);
-    $BarClass = new BarClass();
-    $SelDelDB = new SelectDeleteDB();
+    $BarClass = new BarClass($username, $password, $host, $dbname);
+    $SelDelDB = new SelectDeleteDB($username, $password, $host, $dbname);
 
     //вставляем в бд созданных посетителей и жанры
     if($getPost)
