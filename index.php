@@ -1,8 +1,8 @@
 <?php
-    require_once 'Classes\DataBase.php';//подключаем класс с объектами для создания db и table
-    require_once 'Classes\BarClass.php';//подключаем класс с объектами для создания db и table
-    require_once 'Classes\SelectDeleteDB.php';//подключаем класс с объектами для создания db и table
-    require_once 'Classes\connection.php';//подключаем конфиг с данными для подключения к mysql
+    require_once './Classes/DataBase.php';//подключаем класс с объектами для создания db и table
+    require_once './Classes/BarClass.php';//подключаем класс с объектами для создания db и table
+    require_once './Classes/SelectDeleteDB.php';//подключаем класс с объектами для создания db и table
+    require_once './Classes/connection.php';//подключаем конфиг с данными для подключения к mysql
 
     //приводим пост в нужный вид. Значение в верхнем регистре для удобства
     $arPost = $_POST;
